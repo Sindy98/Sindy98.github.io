@@ -13,4 +13,4 @@ The followings are some projects that I was working on:
 ### Upper limb Rehabilitation System Design for Stroke Patients
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/system.jpg" width="200">
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/overview.png" width="200">
-<img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/pmc.gif" width="200" />
+<img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/pmc_overview.gif" width="200" />
