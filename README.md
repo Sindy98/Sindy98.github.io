@@ -10,4 +10,5 @@ Hi, this is Xinyu, 欣钰！
 
 The followings are some projects that I was working on:
 
+### Upper limb Rehabilitation System Design for Stroke Patients
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/system.jpg" width="200">
