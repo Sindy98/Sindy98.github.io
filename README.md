@@ -10,4 +10,4 @@ Hi, this is Xinyu, 欣钰！
 
 The followings are some projects that I was working on:
 
-![image](https://github.com/Sindy98/Sindy98.github.io/blob/main/img/system.jpg)
+![image](https://github.com/Sindy98/Sindy98.github.io/blob/main/img/system.jpg =200x200)
