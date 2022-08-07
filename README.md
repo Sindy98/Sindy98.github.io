@@ -7,3 +7,7 @@ Hi, this is Xinyu, 欣钰！
 👯 I’m looking to continue my edudation in robotic learning.
 
 📫 How to reach me: xinyu.sun86@gmail.com
+
+The followings are some projects that I was working on:
+
+![Image text](https://github.com/Sindy98/Sindy98.github.io/tree/main/img/system.jpg)
