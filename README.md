@@ -12,7 +12,7 @@ The followings are some projects that I was working on:
 
 [Deep Learned Constellation Descriptors for Object-based Map](https://arxiv.org/abs/2203.00567)
 
-<img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/slam.PNG" width="200" />
+<img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/slam.PNG" width="200" >
 
 [Conditional Predictive Reinforcement Learning for Driving Policy](https://github.com/Sindy98/Sindy98.github.io/blob/main/report/Conditional_Predictive_Learning%20.pdf)
 
@@ -20,7 +20,7 @@ The followings are some projects that I was working on:
 
 Human Body Parameter Registration from Silhouette 
 
-<img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/pmc_overview.gif" width="200" />
+<img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/pmc_overview.gif" width="200" >
 
 [Upper limb Rehabilitation System Design for Stroke Patients](https://github.com/Sindy98/Sindy98.github.io/blob/main/report/upper_limb_rehabilitation_game_design_for_stroke_patients_based_on_UNITY.pdf) 
 
