@@ -10,8 +10,7 @@ Hi, this is Xinyu, 欣钰！
 
 The followings are some projects that I was working on:
 
-Upper limb Rehabilitation System Design for Stroke Patients
-[upper](https://github.com/Sindy98/Sindy98.github.io/blob/main/report/upper_limb_rehabilitation_game_design_for_stroke_patients_based_on_UNITY.pdf)
+[Upper limb Rehabilitation System Design for Stroke Patients](https://github.com/Sindy98/Sindy98.github.io/blob/main/report/upper_limb_rehabilitation_game_design_for_stroke_patients_based_on_UNITY.pdf)
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/slam.PNG" width="200" />
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/system.jpg" width="200">
 
