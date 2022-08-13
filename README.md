@@ -9,6 +9,7 @@ Hi, this is Xinyu, 欣钰！
 📫 How to reach me: xinyu.sun86@gmail.com
 
 The followings are some projects that I was working on:
+[Deep Learned Constellation Descriptors for Object-based Map](https://arxiv.org/abs/2203.00567)
 
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/slam.PNG" width="200" />
 
