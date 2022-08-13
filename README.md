@@ -14,6 +14,7 @@ The followings are some projects that I was working on:
 
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/slam.PNG" width="200" />
 
+[Conditional Predictive Reinforcement Learning for Driving Policy](https://github.com/Sindy98/Sindy98.github.io/blob/main/report/Conditional_Predictive_Learning%20.pdf)
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/overview.png" width="200">
 
 <img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/pmc_overview.gif" width="200" />
