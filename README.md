@@ -24,5 +24,5 @@ Human Body Parameter Registration from Silhouette
 
 [Upper limb Rehabilitation System Design for Stroke Patients](https://github.com/Sindy98/Sindy98.github.io/blob/main/report/upper_limb_rehabilitation_game_design_for_stroke_patients_based_on_UNITY.pdf) 
 
-<img src="./img/system.jpg" width="300">
+<img src="https://github.com/Sindy98/Sindy98.github.io/blob/main/img/system.jpg" width="300">
 
