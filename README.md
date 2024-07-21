@@ -1,10 +1,10 @@
-Hi, this is Xinyu, 欣钰！
+Hi, this is Xinyu！
 
-🔭 I’m currently a master student in robotics, system and control ETHZ.
+🔭 I’m a software developer for a universarial manipulator system.
 
-🌱 I’m currently learning SLAM, robotic learning.
+🌱 I was a master student in ETHZ specialized in Robot Learning.
 
-👯 I’m looking to continue my edudation in robotic learning.
+👯 I’m looking for research opportunities about Robot Learning.
 
 📫 How to reach me: xinyu.sun86@gmail.com
 
