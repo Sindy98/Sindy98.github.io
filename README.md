@@ -1,6 +1,6 @@
 Hi, I am Xinyu！
 
-I am a software developer at Agile Robots in Germany, where I contribute to developing an operating system and deploying mobile manipulators in thousands of manufacturing factories. Previously, I completed my master's thesis at the Robotics and Perception Group (RPG) under the supervision of Prof. Davide Scaramuzza. My research interests include robust learning for general robotics skills, with a particular focus on RL. I am passionate about integrating robots into our daily routines.
+I am a software developer at Agile Robots in Germany, where I contribute to developing an operating system and deploying mobile manipulators in thousands of manufacturing factories. Previously, I completed my master's thesis at the Robotics and Perception Group under the supervision of Prof. Davide Scaramuzza. My research interests include robust learning for general robotics skills, with a particular focus on RL. I am passionate about integrating robots into our daily routines.
 
 📫 Email: xinyu.sun86@gmail.com
 🔭 Skills: RL, IL, C++, Python
