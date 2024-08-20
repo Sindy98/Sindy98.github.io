@@ -15,7 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a software developer at Agile Robots in Germany, where I contribute to developing an operating system and deploying mobile manipulators in thousands of manufacturing factories. Previously, I completed my master's thesis at the Robotics and Perception Group under the supervision of Prof. Davide Scaramuzza. My research interests include robust learning for general robotics skills, with a particular focus on RL. I am passionate about integrating robots into our daily routines
+I am a software developer at Agile Robots in Germany, where I contribute to developing an operating system and deploying mobile manipulators in thousands of manufacturing factories.
+
+I completed my master's thesis at the Robotics and Perception Group under the supervision of Prof. Davide Scaramuzza. My research interests include robust learning for general robotics skills, with a particular focus on RL. I am passionate about integrating robots into our daily routines
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
