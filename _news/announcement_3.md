@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will represent Agile Robots for <a href="https://www.tradefairdates.com/China-International-Industry-Fair-CIIF-M4269/Shanghai.html">China International Industry Fair</a> in 2024, Shanghai!
+I represent Agile Robots for <a href="https://www.tradefairdates.com/China-International-Industry-Fair-CIIF-M4269/Shanghai.html">China International Industry Fair</a> in 2024, Shanghai!

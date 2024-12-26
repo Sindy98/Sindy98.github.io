@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I join Philips in the Netherlands as an Algorithm Developer, contributing to pioneering work in human body parametrization.
+I start a research internship at the Philips in the Netherlands, contributing to pioneering work in human body parametrization.

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.agile-robots.com/en/'>Agile Robots SE</a>, Munich
 
 profile:
   align: right
@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a software developer at Agile Robots in Germany, where I contribute to developing an operating system and deploying mobile manipulators in thousands of manufacturing factories.
+I am a software development engineer at Agile Robots in Germany, where I contribute to developing an operating system and deploying mobile manipulation in manufacture.
 
 I completed my master's thesis at the Robotics and Perception Group under the supervision of Prof. Davide Scaramuzza. My research interests include robust learning for general robotics skills, with a particular focus on RL. I am passionate about integrating robots into our daily routines
 

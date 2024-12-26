@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2023-06-30 09:00:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
-I submit my master thesis and meet all the requirements for graduation!
+I submit my master thesis!
