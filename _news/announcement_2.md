@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I submit my master thesis and meet all the requirements for graduation!
+I submit my master thesis!
