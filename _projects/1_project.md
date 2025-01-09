@@ -1,25 +1,18 @@
 ---
 layout: page
-title: project 1
+title: Constellation Descriptor for Global Navigation
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/descriptor.png
 importance: 1
-category: work
+category: course project
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Current keypoint descriptors for global localization often struggle with computational complexity. As an alternative, intermediate object-level descriptors leveraging topological and semantic information offer a more efficient approach. However, handcrafted topological descriptors are challenging to optimize and lack robustness against environmental noise, perspective changes, object occlusions, and detection errors.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+To address these issues, we propose a learning-based method that models semantically meaningful object constellations as graphs. By utilizing Deep Graph Convolutional Networks, we generate compact and robust descriptors for these constellations.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our Deep Learned Constellation Descriptor (Descriptellation) is evaluated on two real-world datasets. Despite being trained on randomly generated simulation data, it generalizes effectively to real-world scenarios. Descriptellation outperforms state-of-the-art methods and handcrafted descriptors in global localization, demonstrating resilience to various types of noise. The full paper can reach by {% cite descriptor %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,9 +37,7 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -60,7 +51,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
+<!-- The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
@@ -78,4 +69,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
