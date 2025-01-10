@@ -37,8 +37,6 @@ Our Deep Learned Constellation Descriptor (Descriptellation) is evaluated on two
     This image can also have a caption. It's like magic.
 </div>
 
-
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
