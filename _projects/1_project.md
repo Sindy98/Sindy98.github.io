@@ -4,7 +4,7 @@ title: Constellation Descriptor for Global Navigation
 description: with background image
 img: assets/img/descriptor.png
 importance: 1
-category: course project
+category: work
 related_publications: true
 ---
 
