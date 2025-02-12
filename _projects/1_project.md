@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Constellation Descriptor for Global Navigation
-description: with background image
+description:
 img: assets/img/descriptor.png
 importance: 1
 category: work
@@ -14,7 +14,7 @@ To address these issues, we propose a learning-based method that models semantic
 
 Our Deep Learned Constellation Descriptor (Descriptellation) is evaluated on two real-world datasets. Despite being trained on randomly generated simulation data, it generalizes effectively to real-world scenarios. Descriptellation outperforms state-of-the-art methods and handcrafted descriptors in global localization, demonstrating resilience to various types of noise. The full paper can reach by {% cite descriptor %}.
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -27,17 +27,17 @@ Our Deep Learned Constellation Descriptor (Descriptellation) is evaluated on two
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+</div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/descriptor.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Global localization based on semantic constellation descriptors. The global and local semantic object maps are described as object constellations. For each object in the global and local map, we generate a graph by specifying an edge between every pair of neighboring nodes according to the Euclidean distance. The graph is used to generate robust descriptors using GCNs.
 </div>
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -47,7 +47,7 @@ Our Deep Learned Constellation Descriptor (Descriptellation) is evaluated on two
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+</div> -->
 
 <!-- The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
