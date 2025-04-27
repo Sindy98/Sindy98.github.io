@@ -13,7 +13,7 @@
   },
 
   // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
-  "postAttachCommand": "./bin/entry_point.sh",
+  "postAttachCommand": "pwd && ./bin/entry_point.sh",
 
   "customizations": {
     "vscode": {
@@ -27,5 +27,8 @@
     }
   },
 
-  "remoteUser": "vscode"
+  "remoteEnv": {
+    "PODMAN_USERNS": "keep-id"
+  },
+  "containerUser": "vscode"
 }
