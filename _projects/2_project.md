@@ -5,7 +5,6 @@ description:
 img: assets/img/cpc_title.png
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 In this project, I developed a deep reinforcement learning (RL) framework for conditional driving policy learning in the CARLA simulator. The system takes visual inputs and high-level navigational commands to determine driving actions, making it highly applicable to real-world autonomous driving scenarios.
