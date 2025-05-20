@@ -3,6 +3,8 @@ layout: page
 title: Safe Reinforcement Learning for Multi-player Drone Racing
 description:
 img: assets\img\SRL_title.png
+importance: 1
+category: work
 ---
 
 Drone racing has emerged as a high-stakes, internationally competitive sport. While reinforcement learning (RL) has successfully achieved time-optimal policies for single-agent racing, training autonomous RL strategies for multi-agent drone racing remains a significant challenge.
