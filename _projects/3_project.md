@@ -1,81 +1,38 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Safe Reinforcement Learning for Multi-player Drone Racing
+description:
+img: assets\img\SRL_title.png
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Drone racing has emerged as a high-stakes, internationally competitive sport. While reinforcement learning (RL) has successfully achieved time-optimal policies for single-agent racing, training autonomous RL strategies for multi-agent drone racing remains a significant challenge.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+To address this, we introduce an RL-based approach that trains competitive and safety-conscious policies for multi-agent racing. Our method leverages curriculum learning with adaptive reward-coefficient adjustment, achieving superior convergence with enhanced competitiveness and a reduced crash rate. Notably, we:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- Generate diverse, competitive opponents through adversarial attacks and league play, improving robustness;
+
+- Boost sampling efficiency by integrating suboptimal racing strategies, accelerating training;
+
+- Mitigate data imbalance via task division and training separation, ensuring balanced learning;
+
+- Increase survival rates from 45% to 70% versus baselines while maintaining high-speed performance.
+
+We evaluate our method in a 3-player self-play scenario on a SplitS track, where it reduces crash rates by 47% (from 0.95 to 0.5) while maintaining high-speed performance (5.3s/lap)—significantly outperforming standard RL baselines in both safety and competitiveness. Furthermore, as below, the learned value distribution reveals an intelligent spatial awareness: it assigns lower values to states with nearby opponents, effectively capturing the underlying strategic dynamics of multi-agent racing.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets\img\SRL_visualization.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Value distribution of spatial awareness toward opponents
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+In our comparative study of SAC and PPO for drone racing applications, we observed distinct trade-offs between the two algorithms. PPO demonstrated greater robustness to reward shaping when the primary reward component was simple or clearly defined. However, its relies on more concentrated state-action sampling, limiting its ability to master sophisticated behaviors without an excessively large data buffer.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In contrast, while SAC exhibited slower convergence and higher sensitivity to hyperparameters, it proved more effective at discovering moderately safe, conservative policies. This suggests SAC’s superior suitability for scenarios requiring nuanced policy optimization, despite its steeper tuning requirements.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+
