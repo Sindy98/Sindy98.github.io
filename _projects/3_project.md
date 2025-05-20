@@ -2,7 +2,7 @@
 layout: page
 title: Safe Reinforcement Learning for Multi-player Drone Racing
 description:
-img: assets\img\SRL_title.png
+img: assets/img/SRL_title.png
 importance: 1
 category: work
 ---
@@ -23,7 +23,7 @@ We evaluate our method in a 3-player self-play scenario on a SplitS track, where
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets\img\SRL_visualization.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/SRL_visualization.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
