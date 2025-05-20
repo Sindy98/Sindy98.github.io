@@ -5,7 +5,6 @@ description:
 img: assets/img/cpc_title.png
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 In this project, I developed a deep reinforcement learning (RL) framework for conditional driving policy learning in the CARLA simulator. The system takes visual inputs and high-level navigational commands to determine driving actions, making it highly applicable to real-world autonomous driving scenarios.
@@ -29,7 +28,16 @@ My implementation achieved:
 
 - Competitive performance compared to methods relying on expert demonstrations.
 
-This work demonstrates the potential of deep RL with auxiliary tasks in improving autonomous driving systems under complex, real-wor. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cpc_demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Driving example in a test crowded town.
+</div>
+
+This work demonstrates the potential of deep RL with auxiliary tasks in improving autonomous driving systems under complex, real-world situations. 
 
 Through this project, I discovered that long-tail data distribution significantly affects the action prediction module. For instance, in the (speed, traffic light, action) space, the state where speed = 0, traffic light = green, and action = acceleration is extremely rare. In contrast, more common scenarios like high speed with green light and no action change dominate the dataset. As a result, the network fails to learn appropriate responses for underrepresented transitions—such as accelerating from a full stop at a green light—leading to behaviors like the car indefinitely waiting at an intersection.
 
