@@ -41,13 +41,6 @@
         - Scaled AgileX, a global robotics application platform, by enabling hardware integration, workflow orchestration, and UI-driven interaction; successfully deployed across China, Japan, and India.
         - Achieved 0.5mm operational accuracy in real-world deployments through the RL-based methods.
         - Built foundational vision components to enable robust and precise manipulation tasks.
-    - title: Aerial Vehicles Simulation for Autonomous Industrial Inspection
-      institution: Flyability Lausanne
-      year: 2023.09 - 2024.02
-      description:
-        - Implemented drone dynamics within ISAAC-SIM.
-        - Simulated the property of lidar, camera and IMU, creating 10 industrial scenes.
-        - Integrated the simulator into 3 repositories, conducting tests on their mapping and navigation code.
 
 - title: Projects
   type: time_table
