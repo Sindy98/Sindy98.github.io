@@ -18,13 +18,9 @@
     - title: Robotics System and Control, D-MAVT
       institution: ETH Zurich, Zurich, Switzerland
       year: 2020.09 - 2024.02
-      description:
-        - Overall GPA: 5.62/6
     - title: School of Mechanical Engineering, Tsien Hsue-Shen Honor Program
       institution: Shanghai Jiao Tong University, Shanghai, China
       year: 2016.09 - 2020.06
-      description:
-        - Overall GPA: 90/100
 
 - title: Skills
   type: map
@@ -79,3 +75,20 @@
         - Created a training dataset generator to simulate object distribution in urban scenarios.
         - Constructed a localization benchmark, incorporating RANSAC, to evaluate descriptors.
         - Achieved above 80% successful localization within 2m error while 60% by baselines on real datasets.
+
+- title: Certificates & Recommendations
+  type: time_table
+  contents:
+    - title: Internship Certificate & Recommendation Letter
+      institution: Flyability SA, Lausanne, Switzerland
+      year: 2024.02
+      description:
+        - Internship as Autonomy Engineer Intern from September 2023 to February 2024
+        - Worked on Robotics Simulator related topics, creating a virtual drone platform matching Elios3 specifications
+        - Implemented detailed simulations of critical sensors (Lidar and IMU) for realistic testing
+        - Developed various environments within the simulator reflecting specific use cases
+        - Delivered a fully functional simulator to improve algorithm development speed and efficiency
+        - Recommended by Johannes Brakker (Head of Autonomy) and Rachel Roethlisberger (VP Human Resources)
+      linkitems:
+        - link: /assets/pdf/Flyability_Certificate.pdf
+          linkname: View Certificate
