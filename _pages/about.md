@@ -20,13 +20,4 @@ I completed my master's thesis at the Robotics and Perception Group under the su
 
 ## Current Work
 
-I am developing the vision and learning components for **AgileX**, an industrial automation software platform. AgileX has been successfully deployed in large-scale manufacturing facilities across Japan and China, demonstrating its effectiveness in real-world industrial automation applications.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/AgileX.png" title="AgileX - Industrial Automation Solutions" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    AgileX: Successfully deployed in large-scale manufacturing facilities across Japan and China.
-</div>
+I am developing the vision and learning components for an industrial automation software platform. The platform has been successfully deployed in large-scale manufacturing facilities across Asia, demonstrating its effectiveness in real-world industrial automation applications.
